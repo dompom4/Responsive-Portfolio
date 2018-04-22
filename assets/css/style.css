@@ -1,0 +1,391 @@
+#head{
+background-color: #ffffff;
+color: #777777;
+width:966px;
+BORDER: 1px solid #cccccc;
+font-family: Georgia, Times, 'Times New Roman', serif;
+font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+float: left;
+margin:-40px 0%;
+
+
+}
+#main {
+width: 927px;
+float:left;
+text-align: initial;
+background-color:#ffffff;
+BORDER: 1px solid #dddddd;
+padding:20px;
+}
+#container {
+width: 966px;
+position: relative;
+left: 50;
+top: 50;
+margin:-40px 10%;
+}
+#side {
+width: 200px;
+margin:8px;
+float: left;
+text-align:bottom;
+}
+#side2 {
+    width: 200px;
+    margin:8px;
+    float: left;
+    text-align:bottom;
+    }
+    #side3{
+        width: 200px;
+        border: dotted 1px;
+        background-color:white;
+        padding:20px;
+        text-align:center;
+        margin:-56px 0px;
+        float: right;
+        padding: 10px 10px;
+        }
+body {    
+    background-color: #eee;
+    background-image: url("tex.png");
+    
+}
+.footer {
+    clear: both;
+    background-color: #666666;
+    BORDER: 3px solid  #4aaaa5;
+    color: white;
+    text-align:center;
+    height: 40px;
+    width:100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;}
+
+.nav {
+    width:966px;
+    position: relative;
+    left: 50;
+    top: 0;
+    margin:-10px 10%;
+
+}
+#nav2{
+    width: 100%
+    position: relative;
+    background-color:white;
+    border-bottom:solid 1px grey grey;
+    height: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+#name {
+display: block;
+background-color: #4aaaa5;
+color:#ffffff;
+padding: 14px 16px;
+text-decoration: none;
+float: left;
+}
+#name2 {
+    display: block;
+    color:#4aaaa5;
+    padding: 1px 10px;
+    text-decoration: none;
+    float: left;
+    }
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color:#777777;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #4aaaa5;
+    color:white;
+
+}
+
+.active {
+    background-color: #4aaaa5;
+}
+
+ /* Style inputs with type="text", select elements and textareas */
+ input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: rgb(76, 160, 175);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #032a94;
+}
+
+/* Add a background color and some padding around the form */
+.contact {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    float:left;
+}
+#contactform{
+float: left;
+border: dotted 1px;
+width:600px;
+margin: 5px 10px;
+}
+
+#c1 {
+display:block;
+height:24px;
+color:teal;
+text-align:center;
+margin: -10px -10px;
+}
+#IM{
+    border-top: solid 1px teal;
+    width:186px;
+    float: left;
+    margin: 20px 5px;
+    padding: 5px;
+}
+#i1 {
+    display:block;
+    width: 60px;
+    float: left;
+}
+#i2 {
+    width: 205px;
+    float: left;
+    padding: 5px;
+    margin: 8px;
+
+}
+#i3 {
+    display:block;
+    width: 205px;
+    float: left;
+
+}
+#head2{
+    background-color: #ffffff;
+    color: #777777;
+    width:690px;
+    BORDER: 1px solid #cccccc;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    float: left;
+    height:55px;
+    margin:-2px -168px;
+    
+    }
+    #main2 {
+    width: 650px;
+    float:left;
+    text-align: initial;
+    background-color:#ffffff;
+    BORDER: 1px solid #dddddd;
+    padding:20px;
+    margin: -6px 0px;
+    }
+  p {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color:#777777;
+  }
+  h1 {
+font-family: font-family: 'Georgia', Times, 'Times New Roman', serif;
+color: #4aaaa5;
+  }
+  h2 {
+    font-family: font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #4aaaa5;
+  }
+  h3 {
+    font-family: font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #4aaaa5;
+  }
+
+  @media screen and (max-width:980px) {
+.nav {
+    width:666px;
+    margin:-10px 1%;
+}
+#container {
+    width:666px;
+    margin:-10px 1%;
+
+}
+#main {
+    width:627px;
+    margin:-10px 1%;
+
+}
+#head{
+    width:666px;
+    margin:-10px 1%;
+}
+#head2{
+    width:490px;
+
+}
+#main2{
+    width:450px;
+}
+#contactform {
+width:400px;
+}
+
+#c1{
+display:none;
+}
+#im{
+display:none;
+}
+#side3{
+ display:none;
+ }
+
+  }
+
+  @media screen and (max-width:768px) {
+    .nav {
+        width:666px;
+        margin:-10px -3%;
+    }
+    #container {
+        width:666px;
+        margin:-10px -3%;
+    padding:5px;
+    }
+    #main {
+        width:627px;
+        margin:-10px -3%;
+    
+    }
+    #head{
+        width:666px;
+        margin:-10px -3%;
+    }
+    #head2{
+        width:690px;
+        margin:5px -3%;
+
+    }
+    #main2{
+        width:650px;
+        margin:-10px -3%;
+
+    }
+    #name2{
+        margin:-5px 5%;
+        padding:5px;
+    }
+    #contactform {
+    width:600px;
+    margin:20px 3%
+    }
+    
+    #c1{
+    display:none;
+    }
+    #im{
+    display:none;
+    }
+    #side3{
+     display:none;
+     }
+    
+  }
+
+  @media screen and (max-width:640px) {
+    .nav {
+        width:538px;
+        margin:-10px -3%;
+    }
+    #side{
+        width:522px;
+    }
+    #container {
+        width:538px;
+        margin:-10px -3%;
+    padding:5px;
+    }
+    #main {
+        width:540px;
+        margin:-10px -3%;
+    
+    }
+    #head{
+        width:580px;
+        margin:-10px -3%;
+    }
+    #head2{
+        width:562px;
+        margin:-10px -3%;
+
+    }
+    #main2{
+        width:522px;
+        margin:9px -3%;
+
+    }
+    #name2{
+        margin:-5px 5%;
+        padding:5px;
+        width:450px;
+    }
+    #contactform {
+    width:472px;
+    margin:20px 3%
+    }
+    
+    #c1{
+    display:none;
+    }
+    #im{
+    display:none;
+    }
+    #side2{
+       margin:30px 190px;
+    }
+    #side3{
+     display:none;
+     }
+    
+#mobile{
+    margin:-10px;
+}
+#i2{
+    margin:20px 175px;
+}
+  }
